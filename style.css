@@ -1,0 +1,23 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+h1 {
+    font-size: 3rem; /* Base size */
+}
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem; /* Smaller size for tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem; /* Smaller size for mobile devices */
+    }
+}
+#name {
+    font-family: "Meow Script", serif;
+    font-weight: 400;
+    font-style: normal;
+}
