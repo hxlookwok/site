@@ -17,6 +17,7 @@ html {
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     max-width: 400px;
+    margin-top: -20px;
 }
 #name {
     font-size: clamp(1.8rem, 5vw, 3rem); /* Adapts to screen size */
@@ -32,9 +33,9 @@ p {
     margin: 10px 0;
 }
 footer {
-    margin-top: 20px;
+    padding: 3px;
     font-size: 1 rem;
     background-color: #c8a2c8;
-    color: rgb(56, 39, 51);
+    color: rgb(255, 255, 255);
     text-align: center;
   }
